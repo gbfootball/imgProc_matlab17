@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include;
+    D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\ActiveQt;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DCore;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DExtras;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DInput;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DLogic;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DQuick;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DQuickExtras;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DQuickInput;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DQuickRender;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\Qt3DRender;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtAccessibilitySupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtANGLE;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtBluetooth;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtCharts;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtCLucene;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtConcurrent;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtCore;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtDataVisualization;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtDBus;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtDesigner;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtDesignerComponents;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtDeviceDiscoverySupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtEglSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtEventDispatcherSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtFbSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtFontDatabaseSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtGamepad;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtGui;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtHelp;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtLocation;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtMultimedia;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtMultimediaQuick_p;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtMultimediaWidgets;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtNetwork;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtNetworkAuth;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtNfc;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtOpenGL;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtOpenGLExtensions;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtPacketProtocol;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtPlatformCompositorSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtPlatformHeaders;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtPositioning;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtPrintSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtPurchasing;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQml;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQmlDebug;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQmlDevTools;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQuick;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQuickControls2;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQuickParticles;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQuickTemplates2;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQuickTest;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtQuickWidgets;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtScript;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtScriptTools;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtScxml;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtSensors;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtSerialBus;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtSerialPort;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtSql;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtSvg;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtTest;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtTextToSpeech;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtThemeSupport;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtUiPlugin;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtUiTools;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWebChannel;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWebEngine;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWebEngineCore;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWebEngineWidgets;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWebSockets;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWebView;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWidgets;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtWinExtras;
+D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\include\QtXml
+    $(IncludePath)</IncludePath>
+    <ReferencePath>D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>D:\Qt_msvc\Qt5.8.0\5.8\msvc2015_64\bin;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
